@@ -22,6 +22,13 @@ export default function Navbar() {
           <NavLink to="/cart" className={({ isActive }) => (isActive ? "active" : "")}>
             Cart <span className="badge">{totalQty}</span>
           </NavLink>
+          <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>
+  About Us
+</NavLink>
+         
+          <NavLink to="/products" className={({isActive}) => isActive ? "active" : ""}>
+            Product Listing
+          </NavLink>
         </nav>
       </div>
     </header>
