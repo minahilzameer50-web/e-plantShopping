@@ -1,0 +1,51 @@
+export const plants = [
+  {
+    id: "mint",
+    name: "Mint",
+    description: "Fresh aromatic herb, great for tea and digestion.",
+    price: 250,
+    category: "Aromatic Plants",
+    image: "https://images.unsplash.com/photo-1528823872057-9c018a7a7553?auto=format&fit=crop&w=600&q=60",
+  },
+  {
+    id: "lavender",
+    name: "Lavender",
+    description: "Calming aroma, perfect for home and relaxation.",
+    price: 450,
+    category: "Aromatic Plants",
+    image: "https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?auto=format&fit=crop&w=600&q=60",
+  },
+  {
+    id: "basil",
+    name: "Basil",
+    description: "Classic aromatic herb used in sauces and salads.",
+    price: 300,
+    category: "Aromatic Plants",
+    image: "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=600&q=60",
+  },
+
+  {
+    id: "aloe",
+    name: "Aloe Vera",
+    description: "Skin-friendly plant, soothing gel for minor burns.",
+    price: 550,
+    category: "Medicinal Plants",
+    image: "https://images.unsplash.com/photo-1597305877032-0668b3c6413a?auto=format&fit=crop&w=600&q=60",
+  },
+  {
+    id: "chamomile",
+    name: "Chamomile",
+    description: "Traditionally used in calming herbal infusions.",
+    price: 400,
+    category: "Medicinal Plants",
+    image: "https://images.unsplash.com/photo-1615484477778-ca3b77940c25?auto=format&fit=crop&w=600&q=60",
+  },
+  {
+    id: "rosemary",
+    name: "Rosemary",
+    description: "Herb often used for fragrance and traditional uses.",
+    price: 350,
+    category: "Medicinal Plants",
+    image: "https://images.unsplash.com/photo-1587049352851-8d7e3f5c0b05?auto=format&fit=crop&w=600&q=60",
+  },
+];
